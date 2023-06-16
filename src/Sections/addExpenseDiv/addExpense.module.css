@@ -1,0 +1,36 @@
+.wrapper{
+
+    width: 100%;
+    min-height: 10rem;
+ display: flex;
+ flex-direction: column;
+    font-weight: bold;
+}
+
+.container{
+    border-radius: 10px;
+width: 40rem;
+position: fixed;
+left: 25rem;
+top: 8rem;
+background-color: white;
+box-shadow: 5px 5px 10px  10px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header span{
+    position: absolute;
+    left: 37rem;
+    
+    cursor: pointer;
+}
+.wrapper textarea{
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 10px;
+    border: 2px solid;
+    resize: vertical;
+}

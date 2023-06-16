@@ -1,0 +1,79 @@
+.topSection{
+border-radius: 10px;
+
+    width: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    left: 20rem;
+    background-color: #FCE81F;
+    padding: 20px;
+}
+#icon{
+    cursor: pointer;
+}
+.datePopper{
+  margin-left: 14rem;
+}
+.expDiv{
+    border: 1px solid;
+    position: relative;
+    top: 1rem;
+    width: 50%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    height: fit-content;
+}
+.incDiv{
+    border: 1px solid;
+    position: relative;
+    top: 1rem;
+    width: 50%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    height: fit-content;
+}
+.trans{
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(252, 174, 174);
+   
+}
+ span{
+    font-weight: bold;
+}
+.transInc{
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(148, 221, 148);
+}
+.displDiv{
+    display: flex;
+
+}
+.dateSpan{
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+}
+#addIncBtn{
+    background-color: rgb(19, 108, 19);
+    font-weight:bold;
+    text-transform: none;
+    font-size: large;
+}
+#addExpBtn{
+    background-color: crimson;
+    font-weight:bold;
+    text-transform: none;
+    font-size: large;
+}

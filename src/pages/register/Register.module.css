@@ -1,0 +1,22 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    border: 1px solid;
+    position: relative;
+
+    left: 30rem;
+    box-sizing: border-box;
+    padding: 35px;
+    gap: 20px;
+}
+#submitBtn{
+    color: black;
+    text-transform: none;
+    border: 1px solid black;
+}
+.signUpText{
+text-decoration: underline;
+color: blue ;
+cursor: pointer;
+}

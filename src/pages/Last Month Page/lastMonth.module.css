@@ -1,0 +1,39 @@
+.dataDiv{
+    display: flex;
+    width: 80%;
+
+border: 1px solid;
+margin: auto;
+height: 2rem;
+border-radius: 5px;
+align-items: center;
+justify-content: space-around;
+}
+table{
+    border: 1px solid;
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+
+td,th{
+    border: 1px solid;
+    
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .header{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+  }
+  #pdfBtn{
+border-radius: 50%;
+width: 5rem;
+height: 5rem;
+position: fixed;
+top: 40rem;
+left: 83.2rem;
+  }

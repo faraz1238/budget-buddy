@@ -1,0 +1,23 @@
+.header{
+    background-color: cornflowerblue;
+    border: 1px solid;
+    text-align: left;
+    padding-left: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    min-height: 4rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.btnDiv{
+    position: relative;
+
+    padding-right: 10px;
+    align-items: center;
+    display: flex;
+}
+.header h2{
+    cursor: pointer;
+}
